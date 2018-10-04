@@ -32,7 +32,7 @@ class ItemsController < ApplicationController
   end
 
   def load_todo
-    @todo = Todo.find_by(id: params[:todo_id]) || not_found
+    @todo = Todo.find_by! id: params[:todo_id]
   end
 
   def load_todo_item
