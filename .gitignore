@@ -57,9 +57,6 @@ node_modules/
 
 /public/*
 
-/.rubocop.yml
-/.rubocop_disable.yml
-/.rubocop_enable.yml
 
 config/database.yml
 
